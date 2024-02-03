@@ -4,7 +4,7 @@
 
   src = fetchurl {
     url = "https://electron-dl.todoist.com/linux/Todoist-linux-${version}-x86_64.AppImage";
-    hash = "sha256-Yp4wfibymHLGlaPDzu2rhSXxanwdXoNpF/d6+S0r+1U=";
+    hash = "sha256-7O4EBV+fjKEItKM68gJwB9Ff79p+rqutlC7rAL9RH2o=";
   };
 
   appimageContents = (appimageTools.extract { inherit pname version src; }).overrideAttrs (oA: {
