@@ -3,7 +3,7 @@
   version = "8.15.5";
 
   src = fetchurl {
-    url = "https://electron-dl.todoist.com/linux/Todoist-linux-x86_64-${version}.AppImage";
+    url = "https://electron-dl.todoist.com/linux/Todoist-linux-${version}-x86_64.AppImage";
     hash = "sha256-Yp4wfibymHLGlaPDzu2rhSXxanwdXoNpF/d6+S0r+1U=";
   };
 
