@@ -1,6 +1,6 @@
 { lib, appimageTools, fetchurl, asar }: let
   pname = "todoist-electron";
-  version = "8.10.1";
+  version = "8.15.5";
 
   src = fetchurl {
     url = "https://electron-dl.todoist.com/linux/Todoist-linux-x86_64-${version}.AppImage";
